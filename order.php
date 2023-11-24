@@ -22,7 +22,7 @@
             $random_id="Order#".rand(000,10000);
 
             //creating the db connection
-            $conn= new mysqli("localhost","id20938036_rootdb","Himesh12345@","id20938036_mojito_db");
+            $conn= new mysqli("localhost","","","mojito_db");
             
            
             $sql="INSERT INTO Mojito_db VALUES('$random_id','$name','$good','$grosstot')";
