@@ -17,3 +17,7 @@ p{
 th, td {
     padding: 35px;
 }
+h6{
+    color: red;
+    font-family: 'Courier New';
+}
